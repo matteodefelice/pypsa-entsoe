@@ -1,0 +1,21 @@
+{
+    "Biomass": "biomass",
+    "Fossil Brown coal/Lignite": "lignite",
+    "Fossil Coal-derived gas": "coal",
+    "Fossil Gas": "CCGT",
+    "Fossil Hard coal": "coal",
+    "Fossil Oil": "oil",
+    "Fossil Oil shale": "oil",
+    "Fossil Peat": "lignite",
+    "Geothermal": "geothermal",
+    "Hydro Pumped Storage": "PHS",
+    "Hydro Run-of-river and poundage": "ror",
+    "Hydro Water Reservoir": "hydro",
+    "Nuclear": "nuclear",
+    "Other renewable": "other",
+    "Solar": "solar", 
+    "Waste": "biomass",
+    "Wind Offshore": "offwind",
+    "Wind Onshore": "onwind",
+    "Other": "other"
+}
