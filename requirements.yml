@@ -1,0 +1,15 @@
+# run: conda env create --file environment.yml
+name: pypsa-entsoe
+channels:
+  - conda-forge
+dependencies:
+  - cdsapi
+  - coincbc
+  - entsoe-py
+  - ipykernel
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - plotnine
+  - pypsa
