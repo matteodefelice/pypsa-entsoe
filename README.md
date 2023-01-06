@@ -10,6 +10,10 @@ The aim of this notebook is to show the possibility to easily simulate current p
 The file `requirements.yml` contains the list of the Python modules needed to run the example. The example is using the [open-source solver Cbc](https://github.com/coin-or/Cbc), which can be installed using Anaconda.
 
 ## How to use it
+The C3S data for wind, solar radiation and air temperature are too big for GitHub (>100 MB). To download them you have two options:
+  1. Run the script `download_c3s_data.py` in the `data` folder (you need an account to the C3S CDS and `cdsapi` configured)
+  2. Download the data from [this Zenodo repository](https://doi.org/10.5281/zenodo.7509139)
+
 Open and run the Jupyter notebook `main.ipynb`
 
 ## Limitations
