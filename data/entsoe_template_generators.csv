@@ -1,0 +1,13 @@
+name,carrier,efficiency,marginal_cost,ramp_limit_up,ramp_limit_down,p_min_pu
+biomass,biomass,0.346,108,1,1,0
+CCGT,CCGT,0.51,81.3,0.6,0.6,0
+coal,coal,0.357,88.76,0.6,0.6,0
+geothermal,geothermal,0.239,0,1,1,0
+lignite,lignite,0.34,85.18,0.6,0.8,0
+nuclear,nuclear,0.337,26.4,0.5,0.7,0.7
+OCGT,OCGT,0.39,81,0.8,0.8,0
+offwind,offwind,1,0.015,1,1,0
+oil,oil,0.34,144,0.8,0.8,0
+onwind,onwind,1,0.015,1,1,0
+ror,ror,0.9,0,1,1,0
+solar,solar,1,0.01,1,1,0
