@@ -36,8 +36,8 @@ class pypsa_support:
         if ramping is not None:
             ramping['carrier'] = ramping['ProductionType'].map(mapping)
             gen = pd.merge(gen, right = ramping, left_on = 'carrier', right_on='carrier', how = 'outer')
-            gen['ramp_limit_up']   = gen['max_up'] / gen['p_nom']
-            gen['ramp_limit_down'] = gen['max_down'] / gen['p_nom']
+            gen['ramp_limit_up']   = gen['q999_up'] / gen['p_nom']
+            gen['ramp_limit_down'] = gen['q999_down'] / gen['p_nom']
 
 
         return(gen)
@@ -119,7 +119,7 @@ class pypsa_support:
             'oil': 'Other', 
             'onwind':'RES',
             'offwind': 'RES',
-            'ROR': 'RES',
+            'ror': 'RES',
             'solar':'RES',
             'CCGT' : 'gas',
             'OCGT': 'gas'})
